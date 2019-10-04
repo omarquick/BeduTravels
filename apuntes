@@ -1,0 +1,173 @@
+https://fontawesome.com/icons/truck?style=solid
+highlight matching tag marcador
+carruseles
+
+slick js 
+https://glidejs.com/docs/
+https://www.gatsbyjs.org/
+
+markdown md 
+yammel yml 
+
+.tsx  (type script )
+
+
+gatsby netlify
+
+hugo generado de sitios estaticos 
+
+yonydev.io
+
+
+==========
+
+class nombres semanticos que representan para nosotros 
+
+Contenedores o wrappers viven dentro de otros TAGS 
+
+
+hexadecimales rgb o rgba 
+
+FFFFFF
+R V A
+PIXEL.la menor unidad homogenea de color que forma parte de una imagen digital 
+asifnar tamaños. 
+rems 
+
+
+esstado hover cuando estas encima de un elemento 
+
+https://colorhunt.co/palette/157179
+
+Computed todos los styles que tienen el elemento que estams seleccioanndo 
+font family
+se ve las cajas 
+margen, border, 
+padding 
+
+Muchas propiedaddes de css se heredan a sus hijos 
+colorpicker para sabeer los colores que ocupan en una page 
+
+width - anchoo 
+height
+
+margin collapsing 
+margin espacio entre dos elementos 
+padding es el relleno de la distancia que tiene el elemento hijo con el padre 
+
+display block va a ser que un elemento quiera ocupar todo el ancho posible (salto de linnea)
+	inline si se declara otro elemento se pondra al lado 
+	none
+un inline-block si va a respetar el width 
+
+
+==
+Tipos de display 
+
+Flexbox siempre toma las caracteristicas del padre 
+se crea el padre .flexbox y dentro de ahi las cajas .box 
+se aplica a los hijos flex-shirink:0 ( no encogible ) 1 ( encogible) 
+para el padre flex-wra: wrap  esto hara que las cajas se acomoden de acuerdo al tamaño del navegador. y nowrap 
+
+flex es: justify-content. Y puede tomar entre otros valores, los siguientes:
+
+    flex-start: para alinear todos los elementos hacia el inicio del espacio disponible.
+    flex-end: para alinear todos los elementos hacia el final, a la derecha.
+    center: para alinear todos los elementos al centro del espacio disponible.
+    space-between: para distribuir los elementos con un espacio proporcional e igual entre ellos.
+    space-evenly: un mismo espaciado entre todos los elementos 
+    space-around: 
+
+justify-content y align-items centra el el coomponente de los lados x y y 
+flex-directions - colum o row 
+
+.flexbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    height: 200px;
+    border: 1px solid blue;
+
+}
+
+align-self: start;
+
+
+==
+
+Grid gap para separar elementos con el fr 
+
+
+# PROXY API - ESBATTMX
+<Proxy balancer://proxy-esb>
+   BalancerMember http://135.208.34.145:14501
+   BalancerMember http://135.208.34.145:14502
+   BalancerMember http://135.208.34.137:14501
+   BalancerMember http://135.208.34.137:14502
+   ProxySet lbmethod=bytraffic
+</Proxy>
+==
+herencias explicitas 
+inherit es un valor permitido en todas las propiedades CSS. Hace que el elemento al cual se aplica tome el valor calculado de la propiedad de su elemento padre.
+
+
+Asi se declara un media query
+@media screen and (max-width: 600px) 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+===
+sass --watch main.scss:css/main.css
+npm ---descargar librerias de nodejs
+SASSS
+main.scss:
+preprocedaro de un lenguaje a otro .. 
+para compilar
+saas main.scss
+
+nesting anidacion css co
+
+==
+const 
+burgerbutton.addEvenLisener
+selector 
+document,queryselector('menu').classlist.add('isactive')
+eventos
+
+Agregar interactividad a nuestra pag web 
+
+
+======
+Version LTS (Log Time Support) 
+
+Librarias para construir interfaces de usuarios 
+es declarativo 
+se instlaba escafoling 
+npm o npx instala las dependicas necesat 
+
+sudo npm i -g  create-react-app demo-app
+webpack archivos javascript leyera archivos babel.js  ecma script 5 
+https://yarnpkg.com/lang/en/
+gitignore 
+json java script object 
+pwa progressive web app
+REACTDOm que rendereo y como lo voy a renderear 
+componentes de clases se necesita un metodo que se llama render 
+
+ES7 React/Redux/GraphQL/React-Native snippets
+Rodrigo Qeuzada 
+Ikana 
+alias 
+rfc - React Funcional Componente 
+rcc -- Component
+Virtual Dom. hay un cambio y vuelve a redenderar se lo injecta ya al nodo real del nodo 
+ComponentDidMount
+code academy virtual dom 
+programacion funcional - para renderar por medio de funcion 
+map itera y ya los muestra 
+entornos virtuales 
+spread operation
+async 
+axios 
+

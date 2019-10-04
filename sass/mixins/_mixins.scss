@@ -1,0 +1,6 @@
+@mixin stylesConteiner($h:400px, $w:200px) {
+    background: $backgroundcolor;
+    color: aqua;
+    height: $h;
+    width: $w;    
+}

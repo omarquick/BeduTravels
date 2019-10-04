@@ -1,0 +1,18 @@
+.conteiner .child {
+  background: pink;
+  font-size: 200px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: flex-end;
+  margin: 10px; }
+
+.conteiner {
+  background: black;
+  color: aqua;
+  height: 400px;
+  width: 200px; }
+  .conteiner .child:hover {
+    background: purple; }
+
+/*# sourceMappingURL=main.css.map */

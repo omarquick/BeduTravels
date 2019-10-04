@@ -1,0 +1,19 @@
+
+@import 'partials/var';
+@import 'mixins/mixins';
+@import 'extends/extends';
+
+
+.conteiner{
+    //Mixins
+@include stylesConteiner();
+    .child{
+        //Herencia 
+        @extend %child;
+        // a la clase child se le crea un pseudo clase 
+        &:hover{
+            background:$backgroundhover;
+        }
+    }
+}
+
